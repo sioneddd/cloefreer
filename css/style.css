@@ -1,0 +1,168 @@
+@font-face {
+    font-family: Lemon;
+    src: url("../fonts/LemonMilk.otf");
+  }
+p{
+    font-family: Courier New, Courier, monospace;
+    
+}
+h1, h2, h3, h4, h5{
+    font-family: Lemon;
+}
+
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+}
+nav p{
+    line-height: 100%;
+    margin-bottom: 0;
+}
+nav{
+    background-color: #000000;
+    text-align: center !important;
+    padding: 10px;
+    font-size: 2vw;
+    position: fixed !important;
+    z-index: 101;
+    width: 100vw;
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 5vw;
+    margin-left: 5vw;
+    line-height: 100%;
+}
+
+
+
+.logo{
+    width: 10vw;
+    margin-right: 5vw;
+    margin-left: 5vw;
+}
+
+
+.carousel-item{
+    height: 100vh;
+}
+
+.bgshapeT{
+    box-shadow: 0 10px 10px black;
+    color:black;
+    width: 30vw;
+    padding: 10px;
+    font-family: Lemon;
+    height: 10vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-clip-path: polygon(0 0, 100% 34%, 100% 75%, 0 100%);
+clip-path: polygon(0 0, 100% 34%, 100% 75%, 0 100%);
+}
+
+.s1t{
+    background-color: #4dc4c2;
+}
+
+.s1p{
+    background-color: #ed008c;
+}
+
+.s2t{
+    background-color: #ed008c;
+}
+
+.s2p{
+ background-color: #fedf15;
+}
+
+.s3t{
+    background-color: #35499f;
+
+}
+
+.s3p{
+    background-color: #eb1b24;
+}
+
+.bgshapeP{
+    box-shadow: 0 10px 10px black;
+    width: 30vw;
+    height: 30vh;
+    padding: 10px;
+    color: #000000;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-clip-path: polygon(2% 9%, 100% 0, 100% 100%, 0 89%);
+clip-path: polygon(2% 9%, 100% 0, 100% 100%, 0 89%);
+}
+
+.carousel-caption{
+    left: 5% !important;
+}
+
+#about{
+    height: 100vh;
+    padding: 5%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.imgContainer{
+    -webkit-clip-path: polygon(9% 0, 100% 5%, 100% 90%, 0 100%);
+clip-path: polygon(9% 0, 100% 5%, 100% 90%, 0 100%);
+background-color: #fedf15;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 25vw;
+padding: 7%;
+
+}
+
+.imgContainer img{
+    width: 20vw;
+    border: 7px solid #eb1b24;
+}
+
+.abtTitle{
+    -webkit-clip-path: polygon(0 0, 99% 5%, 100% 90%, 3% 100%);
+clip-path: polygon(0 0, 99% 5%, 100% 90%, 3% 100%);
+background-color: #35499f;
+padding: 10px;
+width: 50%;
+text-align: center;
+margin-bottom: 5vh;
+}
+ .btnContact{
+     margin-top: 5vh;
+     background-color: #eb1b24;
+     color: #ffffff;
+     padding: 10px;
+
+ }
+
+ .btn p{
+     padding: 0;
+     margin: 5px;;
+ }
+
+ #collections{
+     height: 100vh;
+     background-color: #35499f;
+ }
