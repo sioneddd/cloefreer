@@ -169,13 +169,14 @@ margin-bottom: 5vh;
  }
 
  #contact{
-     height: 100vh;
+    height: 100vh;
      background-color: #fedf15;
 
  }
 
  .igWidget{
      margin: 10px;
+     
  }
 
  .icon{
@@ -185,12 +186,12 @@ margin-bottom: 5vh;
 
  .socials{
      display: flex;
-     line-height: 100%;
      font-family: Lemon;
      padding: 10px;
      align-items: center;
      justify-content: center;
      width: 100vw;
+     height: 20vh;
  }
 
  .socials a{
@@ -201,3 +202,46 @@ margin-bottom: 5vh;
  .socials a:focus{
      color:#eb1b24;
  }
+
+ footer{
+     background-color: #000000;
+     height: 30vh;
+ }
+
+ .qTitle{
+    -webkit-clip-path: polygon(5% 0, 97% 0, 100% 89%, 0% 100%);
+    clip-path: polygon(5% 0, 97% 0, 100% 89%, 0% 100%);
+    background-color: #ed008c;
+    font-family: Lemon;
+    padding: 10px;
+    width: 30vw;
+    margin: 10px;
+    text-align: center;
+ }
+
+ #qFormHome p{
+     margin: 0;
+     padding: 0;
+ }
+#qFormHome .btn{
+    background-color: #ed008c;
+    font-family: Courier New, Courier, monospace;
+
+}
+
+#qFormHome input{
+    margin-bottom: 2vh;
+    font-family: Courier New, Courier, monospace;
+    border-radius: 10px;
+    padding: 5px;
+    width: 30vw;
+}
+
+#contactQuestion{
+    margin-bottom: 2vh;
+    font-family: Courier New, Courier, monospace;
+    border-radius: 10px;
+    padding: 5px;
+    width: 30vw;
+    height: 15vh;
+}
