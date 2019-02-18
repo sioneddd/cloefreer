@@ -134,21 +134,23 @@ padding: 7%;
 
 .imgContainer img{
     width: 20vw;
-    border: 7px solid #eb1b24;
+    border: 7px solid #ed008c;
 }
 
 .abtTitle{
     -webkit-clip-path: polygon(0 0, 99% 5%, 100% 90%, 3% 100%);
 clip-path: polygon(0 0, 99% 5%, 100% 90%, 3% 100%);
-background-color: #0002f3 ;
+background-color: #eb1b24;
 padding: 10px;
 width: 50%;
 text-align: center;
 margin-bottom: 5vh;
+font-family: Lemon;
+color: #000000;
 }
  .btnContact{
      margin-top: 5vh;
-     background-color: #eb1b24;
+     background-color: #0002f3;
      color: #ffffff;
      padding: 10px;
 
@@ -161,7 +163,9 @@ margin-bottom: 5vh;
 
  #collections{
      height: 100vh;
-     background-color: #0002f3 ;
+     background-color: #0002f3;
+     -webkit-clip-path: polygon(0 0, 100% 4%, 100% 100%, 0 94%);
+clip-path: polygon(0 0, 100% 4%, 100% 100%, 0 94%);
  }
 
  #shop{
@@ -170,8 +174,10 @@ margin-bottom: 5vh;
 
  #contact{
     height: 100vh;
+    padding: 15px;
      background-color: #fedf15;
-
+     -webkit-clip-path: polygon(0 0, 100% 4%, 100% 100%, 0 100%);
+     clip-path: polygon(0 0, 100% 4%, 100% 100%, 0 100%);
  }
 
  .igWidget{
