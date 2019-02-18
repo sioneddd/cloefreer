@@ -6,7 +6,7 @@ p{
     font-family: Courier New, Courier, monospace;
     
 }
-h1, h2, h3, h4, h5{
+h1, h2, h3, h4, h5, h6{
     font-family: Lemon;
 }
 
@@ -87,7 +87,7 @@ clip-path: polygon(0 0, 100% 34%, 100% 75%, 0 100%);
 }
 
 .s3t{
-    background-color: #35499f;
+    background-color: #0002f3 ;
 
 }
 
@@ -116,10 +116,7 @@ clip-path: polygon(2% 9%, 100% 0, 100% 100%, 0 89%);
 #about{
     height: 100vh;
     padding: 5%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    
     
 }
 
@@ -143,7 +140,7 @@ padding: 7%;
 .abtTitle{
     -webkit-clip-path: polygon(0 0, 99% 5%, 100% 90%, 3% 100%);
 clip-path: polygon(0 0, 99% 5%, 100% 90%, 3% 100%);
-background-color: #35499f;
+background-color: #0002f3 ;
 padding: 10px;
 width: 50%;
 text-align: center;
@@ -164,5 +161,43 @@ margin-bottom: 5vh;
 
  #collections{
      height: 100vh;
-     background-color: #35499f;
+     background-color: #0002f3 ;
+ }
+
+ #shop{
+    height: 100vh;
+ }
+
+ #contact{
+     height: 100vh;
+     background-color: #fedf15;
+
+ }
+
+ .igWidget{
+     margin: 10px;
+ }
+
+ .icon{
+     height: 50px;
+     margin-right: 5px;
+ }
+
+ .socials{
+     display: flex;
+     line-height: 100%;
+     font-family: Lemon;
+     padding: 10px;
+     align-items: center;
+     justify-content: center;
+     width: 100vw;
+ }
+
+ .socials a{
+     color: #000000;
+     margin-right: 5vw;
+ }
+
+ .socials a:focus{
+     color:#eb1b24;
  }
