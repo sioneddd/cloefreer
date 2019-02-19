@@ -7,7 +7,7 @@ p{
     
 }
 h1, h2, h3, h4, h5, h6{
-    font-family: Lemon;
+    font-family: Lemon !important;
 }
 
 .navbar-nav {
@@ -115,26 +115,27 @@ clip-path: polygon(2% 9%, 100% 0, 100% 100%, 0 89%);
 
 #about{
     height: 100vh;
-    padding: 5%;
+    
     
     
 }
 
 .imgContainer{
-    -webkit-clip-path: polygon(9% 0, 100% 5%, 100% 90%, 0 100%);
-clip-path: polygon(9% 0, 100% 5%, 100% 90%, 0 100%);
+    -webkit-clip-path: polygon(0 0, 87% 0, 100% 100%, 0% 100%);
+clip-path: polygon(0 0, 87% 0, 100% 100%, 0% 100%);
 background-color: #fedf15;
-display: flex;
-justify-content: center;
-align-items: center;
-width: 25vw;
+width: 100%;
 padding: 7%;
+height: 110vh;
+
+
 
 }
 
 .imgContainer img{
-    width: 20vw;
+    margin-top: 10vh;
     border: 7px solid #ed008c;
+    z-index: 104;
 }
 
 .abtTitle{
@@ -147,6 +148,7 @@ text-align: center;
 margin-bottom: 5vh;
 font-family: Lemon;
 color: #000000;
+margin-top: 10px;
 }
  .btnContact{
      margin-top: 5vh;
@@ -164,12 +166,14 @@ color: #000000;
  #collections{
      height: 100vh;
      background-color: #0002f3;
-     -webkit-clip-path: polygon(0 0, 100% 4%, 100% 100%, 0 94%);
-clip-path: polygon(0 0, 100% 4%, 100% 100%, 0 94%);
+     -webkit-clip-path: polygon(0 3%, 100% 0, 100% 100%, 0 99%);
+clip-path: polygon(0 3%, 100% 0, 100% 100%, 0 99%);
+padding: 20px;
  }
 
  #shop{
     height: 100vh;
+    background-color: #ffffff;
  }
 
  #contact{
@@ -225,17 +229,17 @@ clip-path: polygon(0 0, 100% 4%, 100% 100%, 0 94%);
     text-align: center;
  }
 
- #qFormHome p{
+ form p{
      margin: 0;
      padding: 0;
  }
-#qFormHome .btn{
+form .btn{
     background-color: #ed008c;
     font-family: Courier New, Courier, monospace;
 
 }
 
-#qFormHome input{
+form input{
     margin-bottom: 2vh;
     font-family: Courier New, Courier, monospace;
     border-radius: 10px;
@@ -250,4 +254,25 @@ clip-path: polygon(0 0, 100% 4%, 100% 100%, 0 94%);
     padding: 5px;
     width: 30vw;
     height: 15vh;
+}
+
+/*Login Page*/
+#login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("../images/Tube.jpg");
+    background-size: 100vw;
+    background-repeat: no-repeat;
+}
+
+#loginForm{
+    -webkit-clip-path: polygon(0 3%, 100% 0, 99% 93%, 4% 100%);
+clip-path: polygon(0 3%, 100% 0, 99% 93%, 4% 100%);
+
+background-color: #fedf15;
+height: 70vh;
+padding: 20px;
+box-shadow: 10px 10px 8px #888888;
 }
